@@ -9,7 +9,7 @@ import { Observable } from "rxjs";
 export class CLientService {
 
 
-    baseUrl: string = "";
+    baseUrl: string = "https://dverhoevenapim.azure-api.net/interview/Client";
 
     constructor(private http: HttpClient) { }
 
